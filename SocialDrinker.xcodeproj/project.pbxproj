@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3876BC1C22D060008C266A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876BB1C22D060008C266A /* main.m */; };
+		9F3876BF1C22D060008C266A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876BE1C22D060008C266A /* AppDelegate.m */; };
+		9F3876C21C22D060008C266A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876C11C22D060008C266A /* ViewController.m */; };
+		9F3876C51C22D060008C266A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3876C31C22D060008C266A /* Main.storyboard */; };
+		9F3876C81C22D060008C266A /* SocialDrinker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876C61C22D060008C266A /* SocialDrinker.xcdatamodeld */; };
+		9F3876CA1C22D060008C266A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3876C91C22D060008C266A /* Assets.xcassets */; };
+		9F3876CD1C22D060008C266A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3876CB1C22D060008C266A /* LaunchScreen.storyboard */; };
+		9F3876D81C22D060008C266A /* SocialDrinkerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876D71C22D060008C266A /* SocialDrinkerTests.m */; };
+		9F3876E31C22D060008C266A /* SocialDrinkerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3876E21C22D060008C266A /* SocialDrinkerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F3876D41C22D060008C266A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F3876AF1C22D05F008C266A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3876B61C22D05F008C266A;
+			remoteInfo = SocialDrinker;
+		};
+		9F3876DF1C22D060008C266A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F3876AF1C22D05F008C266A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3876B61C22D05F008C266A;
+			remoteInfo = SocialDrinker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F3876B71C22D060008C266A /* SocialDrinker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialDrinker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3876BB1C22D060008C266A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F3876BD1C22D060008C266A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F3876BE1C22D060008C266A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F3876C01C22D060008C266A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F3876C11C22D060008C266A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F3876C41C22D060008C266A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F3876C71C22D060008C266A /* SocialDrinker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SocialDrinker.xcdatamodel; sourceTree = "<group>"; };
+		9F3876C91C22D060008C266A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F3876CC1C22D060008C266A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F3876CE1C22D060008C266A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3876D31C22D060008C266A /* SocialDrinkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialDrinkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3876D71C22D060008C266A /* SocialDrinkerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialDrinkerTests.m; sourceTree = "<group>"; };
+		9F3876D91C22D060008C266A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3876DE1C22D060008C266A /* SocialDrinkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialDrinkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3876E21C22D060008C266A /* SocialDrinkerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialDrinkerUITests.m; sourceTree = "<group>"; };
+		9F3876E41C22D060008C266A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F3876B41C22D05F008C266A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876D01C22D060008C266A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876DB1C22D060008C266A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F3876AE1C22D05F008C266A = {
+			isa = PBXGroup;
+			children = (
+				9F3876B91C22D060008C266A /* SocialDrinker */,
+				9F3876D61C22D060008C266A /* SocialDrinkerTests */,
+				9F3876E11C22D060008C266A /* SocialDrinkerUITests */,
+				9F3876B81C22D060008C266A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F3876B81C22D060008C266A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F3876B71C22D060008C266A /* SocialDrinker.app */,
+				9F3876D31C22D060008C266A /* SocialDrinkerTests.xctest */,
+				9F3876DE1C22D060008C266A /* SocialDrinkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3876B91C22D060008C266A /* SocialDrinker */ = {
+			isa = PBXGroup;
+			children = (
+				9F3876BD1C22D060008C266A /* AppDelegate.h */,
+				9F3876BE1C22D060008C266A /* AppDelegate.m */,
+				9F3876C01C22D060008C266A /* ViewController.h */,
+				9F3876C11C22D060008C266A /* ViewController.m */,
+				9F3876C31C22D060008C266A /* Main.storyboard */,
+				9F3876C91C22D060008C266A /* Assets.xcassets */,
+				9F3876CB1C22D060008C266A /* LaunchScreen.storyboard */,
+				9F3876CE1C22D060008C266A /* Info.plist */,
+				9F3876C61C22D060008C266A /* SocialDrinker.xcdatamodeld */,
+				9F3876BA1C22D060008C266A /* Supporting Files */,
+			);
+			path = SocialDrinker;
+			sourceTree = "<group>";
+		};
+		9F3876BA1C22D060008C266A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3876BB1C22D060008C266A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F3876D61C22D060008C266A /* SocialDrinkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F3876D71C22D060008C266A /* SocialDrinkerTests.m */,
+				9F3876D91C22D060008C266A /* Info.plist */,
+			);
+			path = SocialDrinkerTests;
+			sourceTree = "<group>";
+		};
+		9F3876E11C22D060008C266A /* SocialDrinkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F3876E21C22D060008C266A /* SocialDrinkerUITests.m */,
+				9F3876E41C22D060008C266A /* Info.plist */,
+			);
+			path = SocialDrinkerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F3876B61C22D05F008C266A /* SocialDrinker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3876E71C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinker" */;
+			buildPhases = (
+				9F3876B31C22D05F008C266A /* Sources */,
+				9F3876B41C22D05F008C266A /* Frameworks */,
+				9F3876B51C22D05F008C266A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialDrinker;
+			productName = SocialDrinker;
+			productReference = 9F3876B71C22D060008C266A /* SocialDrinker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F3876D21C22D060008C266A /* SocialDrinkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3876EA1C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinkerTests" */;
+			buildPhases = (
+				9F3876CF1C22D060008C266A /* Sources */,
+				9F3876D01C22D060008C266A /* Frameworks */,
+				9F3876D11C22D060008C266A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F3876D51C22D060008C266A /* PBXTargetDependency */,
+			);
+			name = SocialDrinkerTests;
+			productName = SocialDrinkerTests;
+			productReference = 9F3876D31C22D060008C266A /* SocialDrinkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F3876DD1C22D060008C266A /* SocialDrinkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3876ED1C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinkerUITests" */;
+			buildPhases = (
+				9F3876DA1C22D060008C266A /* Sources */,
+				9F3876DB1C22D060008C266A /* Frameworks */,
+				9F3876DC1C22D060008C266A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F3876E01C22D060008C266A /* PBXTargetDependency */,
+			);
+			name = SocialDrinkerUITests;
+			productName = SocialDrinkerUITests;
+			productReference = 9F3876DE1C22D060008C266A /* SocialDrinkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F3876AF1C22D05F008C266A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Kagan Ozupek";
+				TargetAttributes = {
+					9F3876B61C22D05F008C266A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9F3876D21C22D060008C266A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F3876B61C22D05F008C266A;
+					};
+					9F3876DD1C22D060008C266A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9F3876B61C22D05F008C266A;
+					};
+				};
+			};
+			buildConfigurationList = 9F3876B21C22D05F008C266A /* Build configuration list for PBXProject "SocialDrinker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F3876AE1C22D05F008C266A;
+			productRefGroup = 9F3876B81C22D060008C266A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F3876B61C22D05F008C266A /* SocialDrinker */,
+				9F3876D21C22D060008C266A /* SocialDrinkerTests */,
+				9F3876DD1C22D060008C266A /* SocialDrinkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F3876B51C22D05F008C266A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3876CD1C22D060008C266A /* LaunchScreen.storyboard in Resources */,
+				9F3876CA1C22D060008C266A /* Assets.xcassets in Resources */,
+				9F3876C51C22D060008C266A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876D11C22D060008C266A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876DC1C22D060008C266A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F3876B31C22D05F008C266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3876C81C22D060008C266A /* SocialDrinker.xcdatamodeld in Sources */,
+				9F3876C21C22D060008C266A /* ViewController.m in Sources */,
+				9F3876BF1C22D060008C266A /* AppDelegate.m in Sources */,
+				9F3876BC1C22D060008C266A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876CF1C22D060008C266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3876D81C22D060008C266A /* SocialDrinkerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3876DA1C22D060008C266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3876E31C22D060008C266A /* SocialDrinkerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F3876D51C22D060008C266A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F3876B61C22D05F008C266A /* SocialDrinker */;
+			targetProxy = 9F3876D41C22D060008C266A /* PBXContainerItemProxy */;
+		};
+		9F3876E01C22D060008C266A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F3876B61C22D05F008C266A /* SocialDrinker */;
+			targetProxy = 9F3876DF1C22D060008C266A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F3876C31C22D060008C266A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3876C41C22D060008C266A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F3876CB1C22D060008C266A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3876CC1C22D060008C266A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F3876E51C22D060008C266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F3876E61C22D060008C266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F3876E81C22D060008C266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialDrinker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F3876E91C22D060008C266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SocialDrinker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F3876EB1C22D060008C266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialDrinkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialDrinker.app/SocialDrinker";
+			};
+			name = Debug;
+		};
+		9F3876EC1C22D060008C266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SocialDrinkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialDrinker.app/SocialDrinker";
+			};
+			name = Release;
+		};
+		9F3876EE1C22D060008C266A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialDrinkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialDrinker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9F3876EF1C22D060008C266A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SocialDrinkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bauio.SocialDrinkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialDrinker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F3876B21C22D05F008C266A /* Build configuration list for PBXProject "SocialDrinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3876E51C22D060008C266A /* Debug */,
+				9F3876E61C22D060008C266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F3876E71C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3876E81C22D060008C266A /* Debug */,
+				9F3876E91C22D060008C266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F3876EA1C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3876EB1C22D060008C266A /* Debug */,
+				9F3876EC1C22D060008C266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F3876ED1C22D060008C266A /* Build configuration list for PBXNativeTarget "SocialDrinkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3876EE1C22D060008C266A /* Debug */,
+				9F3876EF1C22D060008C266A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F3876C61C22D060008C266A /* SocialDrinker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F3876C71C22D060008C266A /* SocialDrinker.xcdatamodel */,
+			);
+			currentVersion = 9F3876C71C22D060008C266A /* SocialDrinker.xcdatamodel */;
+			path = SocialDrinker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F3876AF1C22D05F008C266A /* Project object */;
+}
